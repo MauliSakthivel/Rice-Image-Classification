@@ -1,22 +1,22 @@
 import streamlit as st
 import os
-from tensorflow import keras
+#from tensorflow import keras
 import numpy as np
 import pandas as pd
-import tensorflow as tf
+#import tensorflow as tf
 import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set(style= "darkgrid", color_codes = True)
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
-from tensorflow.keras.preprocessing import image
+#from tensorflow.keras.models import Sequential
+#from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten
+#from tensorflow.keras.preprocessing import image
 from PIL import Image
 import warnings
 warnings.filterwarnings('ignore')
 import pathlib
-from keras.models import load_model
+#from keras.models import load_model
 import matplotlib.image as mpimg
 
 
